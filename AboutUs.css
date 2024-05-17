@@ -5,9 +5,10 @@
     --hover-color: #ffffff;
     --accent-color: #0101fa;
     --underline-thickness: 3px;
-  
     color-scheme: dark;
   }
+
+
 
 body {
     width: 100%;
@@ -16,6 +17,8 @@ body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
     background-color: #dbdbdb;
 }
+
+
 
 header {
     display: grid;
@@ -26,6 +29,8 @@ header {
     text-align: center;
     height:60px;
 }
+
+
 
 nav {
     margin: 0;
@@ -120,7 +125,7 @@ nav {
     margin-top:-170px;
     z-index: 10;
     border-radius: -10px;
-    background-color: rgba(231, 235, 244, 0.0);
+    background-color: rgba(95, 95, 95, 0);
     padding:4px;
 
 }
@@ -129,10 +134,12 @@ nav {
   width:85%;
   margin-left:110px;
   margin-bottom: 20px; /* Adds some space between each hover-div */
-  padding: 10px; /* Adds padding inside the hover-div */
-  background-color: #043a70; /* Background color */
+  padding: 30px; /* Adds padding inside the hover-div */
+  background-color: rgba(196, 196, 196, 0.678); /* Background color */
   border-radius: 10px; /* Rounded corners */
   opacity:0.7;
+  text-align: left;
+
 }
 
 /* Styles for the hover-div paragraph */
@@ -141,22 +148,26 @@ nav {
   text-indent: 2em; /* Adds indentation to paragraphs */
   line-height: 1.5; /* Increases line spacing for better readability */
   font-size: 18px;
+  color: #000000;
 }
 
 /* Styles for the hover-div heading */
 .hover-div h2 {
   margin-top: 0; /* Removes default top margin */
-  color: #ffffff; /* Heading color */
+  color: #fff; /* Heading color */
 }
 
 /* Styles for bold text within the hover-div */
 .hover-div b {
+
   font-weight: bold; /* Sets bold font weight */
   font-size: 25px;
+
 }
 
-.club_photo{
-  width:85.6%;
+.club_photo {
+  
+  width:88.6%;
   margin-top:10px;
   margin-left:115px;
   margin-bottom:10px;
@@ -170,9 +181,11 @@ nav {
   margin-bottom: 10px;
 }
 
+
 .social-media a {
   margin-right: 10px;
 }
+
 
 .social-media img {
   width: 30px;
@@ -188,4 +201,10 @@ footer {
     position:relative;
     bottom: 0;
     width: 100%;
+}
+
+
+body::-webkit-scrollbar {
+  width: 0px;
+  /* Set the width of the scrollbar */
 }

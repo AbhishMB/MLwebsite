@@ -1,5 +1,5 @@
 :root {
-    --body-color: #010c15;
+    --body-color: #011f38;
     --text-color: #ffffff;
     --hover-color: #ffffff;
     --accent-color: #0101fa;
@@ -120,4 +120,10 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+
+body::-webkit-scrollbar {
+  width: 0px;
+  /* Set the width of the scrollbar */
 }

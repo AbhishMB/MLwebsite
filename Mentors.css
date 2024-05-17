@@ -226,3 +226,7 @@ footer {
 }
 
 
+body::-webkit-scrollbar {
+  width: 0px;
+  /* Set the width of the scrollbar */
+}

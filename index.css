@@ -517,7 +517,7 @@ body::-webkit-scrollbar-thumb:hover {
 .blog-item {
     flex: 0 0 auto;
     margin-right: 2px;
-    margin-left: 440px;
+    margin-left: 120px;
     cursor: pointer;
 }
 
